@@ -8,7 +8,8 @@ COPA is building most of its member software in-house. This repository is where 
 | --- | --- | --- |
 | [Technology Governance Policy](governance-policy.md) | The board's guardrails: ownership, no vendor lock-in, building in public, how work is approved and paid for | Board vote |
 | [Technology Standards and Operating Procedures](standards-and-operating-procedures.md) | The technology in use, how changes are made, security, documentation | Technology lead and Director of Operations |
+| [Forum Moderation: The Automated Civility Check](forum-moderation.md) | What the forum civility check flags, what it leaves alone, what happens when it hides a post, and how to get a post restored | Technology lead with the moderator team |
 
-**Status:** both documents are drafts for board review.
+**Status:** all documents are drafts for board review.
 
 Questions and suggestions are welcome. Open an issue here, or post in the COPA forums.
