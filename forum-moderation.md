@@ -1,6 +1,6 @@
 # COPA Forum Moderation: The Automated Civility Check
 
-> **Status: DRAFT** — describes the system as it is being rolled out in October 2026. Last updated 3 October 2026.
+> **Status: DRAFT** — describes the system as it is being rolled out in October 2026. Last updated 5 October 2026.
 
 COPA's forums are moderated by volunteer members. Since August 2026 they have had help from an automated check that reads new posts and flags personal attacks. This document explains what the check does, what it does not do, what happens when it acts on a post, and how members can get a post restored. It is published here so the rules are visible to everyone they apply to.
 
@@ -34,7 +34,7 @@ It judges the target, not the vocabulary. "That claim is nonsense" is criticism 
 
 1. The post is hidden within a few seconds of being published. Other members do not see it.
 2. The author receives a message saying the post was hidden by the automated civility check, with a link to the post and a one-sentence reason.
-3. The post goes into the moderators' review queue with the check's reason attached.
+3. A moderator reviews it, with the check's reason attached.
 4. A moderator reads it and decides. If the moderator disagrees with the check, the post is restored and nothing else happens. If the moderator agrees, the post stays hidden or is removed under the normal guidelines.
 
 The author can also edit the hidden post after ten minutes, and it reappears automatically. If the edited post is flagged again, it stays hidden until a moderator looks at it.
@@ -43,7 +43,7 @@ The author can also edit the hidden post after ten minutes, and it reappears aut
 
 ## 4. How it reads a post
 
-For each new post in a covered category, the check reads the topic title, the preceding posts in the thread, and the new post, and decides against the rules in Section 1. It writes a one-sentence reason, a category (which rule), and a severity. Only the reason and category are shown to the author and the moderators. The reading is done by a large language model (Claude, by Anthropic) under COPA's own account. Post text sent to the model is not used to train it under the API terms COPA operates under. Nothing is sent that is not already visible on the forum.
+For each new post in a covered category, the check reads the topic title, the preceding posts in the thread, and the new post, and decides against the rules in Section 1. It writes a one-sentence reason, a category (which rule), and a severity. Only the reason and category are shown to the author and the moderators. The reading is done by a large language model (Claude, by Anthropic) through an API account paid for by COPA. Post text sent to the model is not used to train it under the API terms COPA operates under. Nothing is sent that is not already visible on the forum.
 
 The covered categories are Off Topic, General Aviation, Cirrus Flying, Airframe & Powerplant Issues, Avionics, Accident Reports and COPA Organization, including their subcategories. This list can change; the current list is always in this document.
 
@@ -53,7 +53,7 @@ Before switching on automatic hiding, the check was tested against two years of 
 
 - Of the posts moderators had removed for personal attacks, the check caught about three in four.
 - When the check flagged a post, a moderator had agreed it was a problem about four times in five.
-- If every one of its flags had been an automatic hide, moderators would have reversed about one in five. At current forum traffic that is roughly two hides a day and a couple of reversals a week.
+- If every one of its flags had been an automatic hide, moderators would have reversed about one in five. At current forum traffic that is roughly one or two hides a day and about two reversals a week.
 - Half of what moderators remove is political content, which the check deliberately does not touch.
 
 It is not perfect and will not be. It misses some sarcasm, and it will occasionally hide a post a moderator then restores. The moderators' reversals are the main signal used to tune it.
@@ -62,7 +62,7 @@ It is not perfect and will not be. It misses some sarcasm, and it will occasiona
 
 - The number of posts hidden, the number restored by moderators, and the reversal rate are reported to the board monthly and summarized to members in the build forum category.
 - The rules in Section 1 are the plain-language version of the instructions given to the model. Changes to those instructions are recorded in this repository's changelog with the date and the reason.
-- The check runs on COPA's own accounts and can be switched off by the Director of Operations or the technology lead at any time. If it is switched off, moderation continues by hand as before.
+- The check runs inside COPA's forum and can be switched off by the Director of Operations or the technology lead at any time. If it is switched off, moderation continues by hand as before.
 
 ## 7. If you think the check got it wrong
 
