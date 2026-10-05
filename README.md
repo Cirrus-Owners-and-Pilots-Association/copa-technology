@@ -10,6 +10,6 @@ COPA is building most of its member software in-house. This repository is where 
 | [Technology Standards and Operating Procedures](standards-and-operating-procedures.md) | The technology in use, how changes are made, security, documentation | Technology lead and Director of Operations |
 | [Forum Moderation: The Automated Civility Check](forum-moderation.md) | What the forum civility check flags, what it leaves alone, what happens when it hides a post, and how to get a post restored | Technology lead with the moderator team |
 
-**Status:** all documents are drafts for board review.
+**Status:** all documents are drafts for board review. Changes are recorded in the [changelog](CHANGELOG.md).
 
 Questions and suggestions are welcome. Open an issue here, or post in the COPA forums.

@@ -1,6 +1,6 @@
 # COPA Technology Governance Policy
 
-> **Status: DRAFT for board review** — not yet adopted. Last updated 2 October 2026.
+> **Status: DRAFT for board review** — not yet adopted. Last updated 5 October 2026.
 
 COPA owns, builds and controls the software its members use. This policy sets the board's guardrails for that software: the outcomes it must deliver, the risks it must avoid, how money is approved, and who is accountable, whoever does the building. The technical detail of how those guardrails are met lives in a separate document, [COPA Technology Standards and Operating Procedures](standards-and-operating-procedures.md). That document can change as technology changes without a board vote, as long as it stays within this policy.
 
@@ -8,7 +8,7 @@ COPA owns, builds and controls the software its members use. This policy sets th
 
 This policy covers all software COPA builds or commissions. That includes the COPA.fyi suite, the member database and CRM, the member portal and every tool that follows. It applies the same way whether the work is done by a volunteer, a director, a contractor or a firm.
 
-Two outside services stay in place and are connected to COPA's software rather than replaced: **Discourse** for the forums, and a **payment processor** (Maxio today) for charging cards and the compliance that comes with it. Every other system is a candidate for replacement when a program calls for it.
+Two outside services stay in place and are connected to COPA's software rather than replaced: **Discourse** for the forums, and a **payment processor** (Maxio today) for charging cards and the compliance that comes with it. Every other system is kept, connected or replaced one program at a time, as each program's proposal sets out.
 
 The goal is the four member promises: *I sign in once. I can find it. COPA knows me. I know what to do next.*
 
@@ -37,13 +37,13 @@ Work is approved and funded one program at a time. There is no single open-ended
 
 ## 4. Reporting
 
-- **To the board, monthly,** in the Goal 2 Teams channel at least 5 days before each board meeting: what shipped, hours billed and donated, spend against each program's budget, and what's next.
+- **To the board, monthly,** in the board's Goal 2 channel at least 5 days before each board meeting: what shipped, hours billed and donated, spend against each program's budget, and what's next.
 - **To members, continuously,** in a forum category for the build: the roadmap, demos, the changelog and the hours ledger. Members can propose features and discuss the work there.
 - **Yearly,** a summary of what was built, what it cost, and what it costs to run compared with the systems it replaced.
 
 ## 5. Decisions still open
 
-- **Open source.** Whether COPA publishes its code for other type clubs, and under what license, is still undecided. That decision weighs the benefits to GA safety and COPA's reputation against the relationship with Cirrus, including a possible Cirrus co-investment. Until the board decides, code stays private in COPA's repository and is built so it could be shared later (Principle 9).
+- **Open source.** Whether COPA publishes its code for other type clubs, and under what license, is a separate board decision. Until the board decides, code stays private in COPA's repository and is built so it could be shared later (Principle 9).
 
 ## 6. Adoption and amendment
 
