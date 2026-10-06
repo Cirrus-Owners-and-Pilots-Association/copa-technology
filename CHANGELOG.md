@@ -2,6 +2,10 @@
 
 Changes to the documents in this repository, newest first.
 
+## 6 October 2026
+
+- **Program 1:** after review by the membership team, scope is now all of One COPA (RegFox, Zoho Backstage and TalentLMS added); matching uses mailing address and the FAA's public aircraft registry and airmen files; the membership team works the review queue, with money questions going to the Director of Operations; paid, guest and lapsed status kept apart; field list agreed across One COPA before Phase 1 ends; guest accounts and the member directory added as open decisions.
+
 ## 5 October 2026
 
 - Added **Programs**: how programs are proposed, approved and reported, a proposal template, and the draft proposal for **Program 1: Member Source of Truth** (estimated 55 hours; dollar cap set before the board vote).
