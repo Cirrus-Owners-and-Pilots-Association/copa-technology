@@ -15,4 +15,4 @@ Who builds a program is named in the proposal. If that person is paid, their rat
 
 | # | Program | Status | Estimate and cap | Proposal |
 | --- | --- | --- | --- | --- |
-| 1 | Member Source of Truth | Proposed | 55 hours; $ cap to be set | [001-member-source-of-truth.md](001-member-source-of-truth.md) |
+| 1 | Member Source of Truth | Proposed | 85 hours; $ cap to be set | [001-member-source-of-truth.md](001-member-source-of-truth.md) |

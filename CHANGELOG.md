@@ -5,6 +5,7 @@ Changes to the documents in this repository, newest first.
 ## 6 October 2026
 
 - **Program 1:** after review by the membership team, scope is now all of One COPA (RegFox, Zoho Backstage and TalentLMS added); matching uses mailing address and the FAA's public aircraft registry and airmen files; the membership team works the review queue, with money questions going to the Director of Operations; paid, guest and lapsed status kept apart; field list agreed across One COPA before Phase 1 ends; guest accounts and the member directory added as open decisions.
+- **Program 1:** added the membership team's findings from checking 100 members by hand: Maxio changes reach MailChimp daily (not only new sign-ups); unsubscribes, reasons and bounces flow back; email by topic instead of all or nothing; past due tracked as its own status with dated reasons; staff notes and built-in lists (Women Pilots, past due, forum access without payment); FAA data to tell pilots from companions and confirm instructors; failed-card follow-up added as an open decision. Estimate raised from 55 to 85 hours to cover the added work.
 
 ## 5 October 2026
 
