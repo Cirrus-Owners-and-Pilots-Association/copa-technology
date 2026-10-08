@@ -1,6 +1,6 @@
 # COPA Technology Standards and Operating Procedures
 
-> **Status: DRAFT** — last updated 5 October 2026.
+> **Status: DRAFT** — last updated 8 October 2026.
 
 How COPA's software is built and run day to day, within the limits set by the [COPA Technology Governance Policy](governance-policy.md). The technology lead and the Director of Operations maintain this document. It changes as technology changes and doesn't need a board vote, but nothing in it may conflict with the policy.
 
@@ -11,10 +11,9 @@ The sections below describe the standard COPA is holding itself to. Some of it i
 | Gap | Today | Target |
 | --- | --- | --- |
 | Service accounts in COPA's name | The COPA.fyi suite's hosting, database, email, analytics and AI accounts are held by the technology lead or his company and billed to COPA | All moved to COPA-owned logins, 16 Oct 2026 |
-| Code in COPA's GitHub organization | The COPA.fyi code is in the technology lead's personal GitHub account | Transferred to COPA's organization, 16 Oct 2026 |
 | Password vault | Not set up yet | COPA-owned vault chosen and in use, 16 Oct 2026 |
-| Branch protection, secret scanning, dependency alerts | Not yet confirmed on every repository | On for every COPA repository, 16 Oct 2026 |
-| Second operator | Only the technology lead can release a change | Director of Operations can sign in and release a change, 16 Oct 2026 |
+| Two-factor sign-in, branch protection, secret scanning, dependency alerts | Two-factor not yet required on COPA's GitHub organization; the rest not yet confirmed on every repository | On for every COPA repository, 16 Oct 2026 |
+| Second operator | Only the technology lead can release a change; the Director of Operations is not yet in COPA's GitHub organization | Director of Operations can sign in and release a change, 16 Oct 2026 |
 | Architecture overview, runbooks, data export, vendor list | Not written yet | Written and in each repository, 30 Oct 2026 |
 | Request portal (Warren) | Runs on the technology lead's own hosting account | Runs on a COPA-owned account before COPA uses it |
 | Build forum category | Not created yet | Created when the first program is approved |

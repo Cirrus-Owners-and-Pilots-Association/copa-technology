@@ -2,6 +2,10 @@
 
 Changes to the documents in this repository, newest first.
 
+## 8 October 2026
+
+- **Standards and Operating Procedures:** the COPA.fyi code now lives in COPA's GitHub organization (since 7 October), so that gap is closed. Added two open items: two-factor sign-in is not yet required on the organization, and the Director of Operations is not yet a member of it.
+
 ## 6 October 2026
 
 - **Program 1:** after review by the membership team, scope is now all of One COPA (RegFox, Zoho Backstage and TalentLMS added); matching uses mailing address and the FAA's public aircraft registry and airmen files; the membership team works the review queue, with money questions going to the Director of Operations; paid, guest and lapsed status kept apart; field list agreed across One COPA before Phase 1 ends; guest accounts and the member directory added as open decisions.
