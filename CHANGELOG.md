@@ -2,6 +2,10 @@
 
 Changes to the documents in this repository, newest first.
 
+## 9 October 2026
+
+- **Standards and Operating Procedures:** security section now names least privilege (for people, volunteers and apps), sets rules for sending member data to AI services, adds a monthly patching and backup-restore routine, and defers to the Operations Manual's data protection, records retention and access rules. Two gaps added: documenting what content staff can edit without a developer, and the board's choice of an ongoing maintainer.
+
 ## 8 October 2026
 
 - **Standards and Operating Procedures:** the COPA.fyi code now lives in COPA's GitHub organization (since 7 October), so that gap is closed. Added two open items: two-factor sign-in is not yet required on the organization, and the Director of Operations is not yet a member of it.

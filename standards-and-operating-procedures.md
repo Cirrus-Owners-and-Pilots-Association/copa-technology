@@ -1,6 +1,6 @@
 # COPA Technology Standards and Operating Procedures
 
-> **Status: DRAFT** — last updated 8 October 2026.
+> **Status: DRAFT** — last updated 9 October 2026.
 
 How COPA's software is built and run day to day, within the limits set by the [COPA Technology Governance Policy](governance-policy.md). The technology lead and the Director of Operations maintain this document. It changes as technology changes and doesn't need a board vote, but nothing in it may conflict with the policy.
 
@@ -18,6 +18,8 @@ The sections below describe the standard COPA is holding itself to. Some of it i
 | Request portal (Warren) | Runs on the technology lead's own hosting account | Runs on a COPA-owned account before COPA uses it |
 | Build forum category | Not created yet | Created when the first program is approved |
 | Takeover test | Not run yet | First run after the documentation is written |
+| Content editing without a developer | Not yet documented which content staff and subject experts can change themselves | Documented, with remaining gaps listed, 30 Oct 2026 |
+| Ongoing maintainer | Patching and upkeep depend on the technology lead | Board chooses the support model, November 2026 |
 
 ## 1. Technology in use today
 
@@ -53,9 +55,12 @@ The main branch is protected. Secret scanning and dependency alerts are on for e
 - **Accounts:** every service is registered under a COPA-owned login, never a personal one.
 - **Credentials:** kept in a COPA-owned password vault. Secrets live in hosting environment settings, never in code.
 - **Two operators minimum:** at least two people (one of them the Director of Operations) can sign in to every service and release a change.
-- **Least access:** each person gets only what their role needs. Access is reviewed every quarter and removed the day someone leaves, and any keys they could see are rotated.
+- **Least privilege:** each person, volunteer or app gets only the access its role needs. Access is reviewed every quarter and removed the day someone leaves, and any keys they could see are rotated.
 - **Member data:** never in code, test data or public repositories, and exported only to COPA-controlled destinations.
 - **Payment cards:** card numbers and payment details stay with the payment processor. COPA's systems store only the processor's customer and subscription IDs.
+- **AI services:** member data goes to an AI model only through COPA's own API accounts, on terms under which the provider does not train on it, and only the fields the task needs.
+- **Patching:** dependency and framework security updates are applied at least monthly, and a database backup is test-restored at the same time.
+- **COPA-wide policies:** where the Operations Manual sets data protection, records retention or system access rules, COPA-built systems follow them.
 
 ## 4. Documentation and continuity
 
